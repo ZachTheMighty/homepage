@@ -40,6 +40,12 @@ header {
 }
 
 .dog1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 3.5rem;
+  color: white;
+  font-weight: 600;
   position: absolute;
   width: 500px;
   height: 600px;
