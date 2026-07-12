@@ -30,13 +30,13 @@ body {
   min-height: 100vh;
 }
 
-header {
+body > header {
   position: relative;
   height: 90vh;
   background-color: #0891b2;
 }
 
-header > section {
+body > header > section {
   position: absolute;
   top: 70px;
   left: 150px;
@@ -106,7 +106,8 @@ header > section {
   padding-right: 12px;
 }
 
-footer > a > img {
+img[src*="icon"]
+{
   width: 40px;
 }
 
@@ -151,4 +152,39 @@ footer > a > img {
 
 .project-description {
   flex: 1;
+  background-color: white;
+}
+
+.project-description > *
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 24px;
+}
+
+.project-description h1
+{
+
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin: 0;
+  font-family: "Playfair Display";
+}
+
+.icons img
+{
+  width: 25px;
+}
+
+.project-description .icons
+{
+  display: flex;
+  gap: 12px;
+}
+
+.project-description p
+{
+  margin: 0;
+  color: #575655;
 }
