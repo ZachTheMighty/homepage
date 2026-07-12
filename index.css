@@ -111,20 +111,19 @@ img[src*="icon"] {
 }
 
 .work {
-  margin-top: 100px;
+  margin: 100px 0;
   padding: 0 48px;
 }
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 24px;
   margin-top: 24px;
 }
 
 .project {
-  width: 400px;
-  height: 500px;
+  min-height: 500px;
   box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.29);
   display: flex;
   flex-flow: column nowrap;
@@ -180,4 +179,59 @@ img[src*="icon"] {
 .project-description p {
   margin: 0;
   color: #575655;
+}
+
+body > footer {
+  min-height: 92vh;
+  background-color: #0891b2;
+  padding: 48px;
+  color: white;
+  display: flex;
+  gap: 64px;
+  text-wrap: balance;
+}
+
+body > footer h1 {
+  font-weight: 400;
+  font-size: 3rem;
+  margin: 0;
+  font-family: "Playfair Display";
+}
+
+body > footer p {
+  font-size: 1.5rem;
+}
+
+body > footer > section > :nth-child(3) {
+  margin: 0;
+}
+
+body > footer > section > :nth-child(4) {
+  margin-top: 0;
+}
+
+.mail,
+.tel {
+  display: flex;
+  gap: 24px;
+}
+
+.tel p {
+  margin-bottom: 4px;
+}
+
+.links {
+  display: flex;
+  gap: 24px;
+  margin-top: 18px;
+}
+
+.links img {
+  width: 50px;
+}
+
+.dog2 {
+  width: 700px;
+  height: 600px;
+  object-fit: cover;
 }
