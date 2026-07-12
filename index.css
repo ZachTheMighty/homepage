@@ -62,6 +62,9 @@ header > section {
 }
 
 .about {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
   width: 650px;
   height: 450px;
   background-color: white;
@@ -73,6 +76,7 @@ header > section {
 {
   font-weight: 400;
   font-size: 2.5rem;
+  margin: 0;
 }
 
 .about > p
@@ -81,4 +85,18 @@ header > section {
   color: #575655;
   font-weight: 500;
   line-height: 1.5;
+  margin: 0;
+}
+
+.about > footer
+{
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  padding-right: 12px;
+}
+
+footer > img
+{
+  width: 40px;
 }
