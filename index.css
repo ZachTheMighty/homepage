@@ -111,7 +111,7 @@ img[src*="icon"] {
 }
 
 .work {
-  margin-top: 100px;
+  margin: 100px 0;
   padding: 0 48px;
 }
 
@@ -180,4 +180,10 @@ img[src*="icon"] {
 .project-description p {
   margin: 0;
   color: #575655;
+}
+
+body > footer
+{
+  height: 92vh;
+  background-color: #0891b2;
 }
