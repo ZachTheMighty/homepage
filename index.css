@@ -39,10 +39,13 @@ header {
   );
 }
 
-img {
+.dog1 {
   position: absolute;
-  width: 400px;
-  top: 100px;
-  left: 100px;
+  width: 500px;
+  height: 600px;
+  top: 70px;
+  left: 150px;
   box-shadow: 0px 0px 28px 5px rgba(0, 0, 0, 0.29);
+  background-image: url("./assets/images/dog1.jpg");
+  background-size: cover;
 }
