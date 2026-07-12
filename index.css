@@ -69,6 +69,7 @@ header > section {
   background-image: url("./assets/images/dog1.jpg");
   background-size: cover;
   font-family: "Playfair Display";
+  text-shadow: 0px 0px 28px black;
 }
 
 .about {
