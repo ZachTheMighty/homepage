@@ -84,8 +84,7 @@ header > section {
 }
 
 .about > h1,
-.work > h1
-{
+.work > h1 {
   font-weight: 400;
   font-size: 2.5rem;
   margin: 0;
@@ -111,22 +110,19 @@ footer > img {
   width: 40px;
 }
 
-.work
-{
+.work {
   margin-top: 100px;
   padding: 0 48px;
 }
 
-.projects
-{
+.projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   margin-top: 24px;
 }
 
-.project
-{
+.project {
   width: 400px;
   height: 500px;
   box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.29);
