@@ -1,9 +1,9 @@
 @font-face {
   font-family: "Playfair Display";
   src:
-    url("PlayfairDisplay-Black.woff2") format("woff2"),
-    url("PlayfairDisplay-Black.woff") format("woff");
-  font-weight: 900;
+    url("./assets/fonts/PlayfairDisplay-Regular.woff2") format("woff2"),
+    url("./assets/fonts/PlayfairDisplay-Regular.woff") format("woff");
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
@@ -86,7 +86,7 @@ header > section {
   font-weight: 400;
   font-size: 2.5rem;
   margin: 0;
-  font-family: "Playfair Display"
+  font-family: "Playfair Display";
 }
 
 .about > p {
