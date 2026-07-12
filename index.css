@@ -26,6 +26,14 @@ header {
   background-color: #0891b2;
 }
 
+header > section
+{
+  position: absolute;
+  top: 70px;
+  left: 150px;
+  display: flex;
+}
+
 .straight {
   height: 60%;
 }
@@ -46,11 +54,8 @@ header {
   font-size: 3.5rem;
   color: white;
   font-weight: 600;
-  position: absolute;
   width: 500px;
   height: 600px;
-  top: 70px;
-  left: 150px;
   box-shadow: 0px 0px 28px 5px rgba(0, 0, 0, 0.29);
   background-image: url("./assets/images/dog1.jpg");
   background-size: cover;
