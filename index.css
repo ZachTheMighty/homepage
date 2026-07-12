@@ -26,8 +26,7 @@ header {
   background-color: #0891b2;
 }
 
-header > section
-{
+header > section {
   position: absolute;
   top: 70px;
   left: 150px;
@@ -62,8 +61,7 @@ header > section
   background-size: cover;
 }
 
-.about
-{
+.about {
   width: 700px;
   height: 450px;
   background-color: white;
