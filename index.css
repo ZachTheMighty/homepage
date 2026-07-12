@@ -106,8 +106,7 @@ body > header > section {
   padding-right: 12px;
 }
 
-img[src*="icon"]
-{
+img[src*="icon"] {
   width: 40px;
 }
 
@@ -155,36 +154,30 @@ img[src*="icon"]
   background-color: white;
 }
 
-.project-description > *
-{
+.project-description > * {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 8px 24px;
 }
 
-.project-description h1
-{
-
+.project-description h1 {
   font-weight: 400;
   font-size: 1.3rem;
   margin: 0;
   font-family: "Playfair Display";
 }
 
-.icons img
-{
+.icons img {
   width: 25px;
 }
 
-.project-description .icons
-{
+.project-description .icons {
   display: flex;
   gap: 12px;
 }
 
-.project-description p
-{
+.project-description p {
   margin: 0;
   color: #575655;
 }
