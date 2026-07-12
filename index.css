@@ -72,15 +72,13 @@ header > section {
   padding: 0 24px;
 }
 
-.about > h1
-{
+.about > h1 {
   font-weight: 400;
   font-size: 2.5rem;
   margin: 0;
 }
 
-.about > p
-{
+.about > p {
   font-size: 1.3rem;
   color: #575655;
   font-weight: 500;
@@ -88,15 +86,13 @@ header > section {
   margin: 0;
 }
 
-.about > footer
-{
+.about > footer {
   display: flex;
   justify-content: flex-end;
   gap: 12px;
   padding-right: 12px;
 }
 
-footer > img
-{
+footer > img {
   width: 40px;
 }
