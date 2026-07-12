@@ -188,6 +188,8 @@ body > footer {
   padding: 48px;
   color: white;
   display: flex;
+  gap: 64px;
+  text-wrap: balance;
 }
 
 body > footer h1 {
@@ -201,14 +203,12 @@ body > footer p {
   font-size: 1.5rem;
 }
 
-body > footer > section > :nth-child(3)
-{
+body > footer > section > :nth-child(3) {
   margin: 0;
 }
 
-body > footer > section > :nth-child(4)
-{
- margin-top: 0;
+body > footer > section > :nth-child(4) {
+  margin-top: 0;
 }
 
 .mail,
@@ -229,4 +229,10 @@ body > footer > section > :nth-child(4)
 
 .links img {
   width: 50px;
+}
+
+.dog2 {
+  width: 700px;
+  height: 600px;
+  object-fit: cover;
 }
